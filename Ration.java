@@ -16,7 +16,10 @@ public class Ration
 	    return gcd(q,r);
     }	
 
-    public Ration plus(Rational b)
+    public Ration
+
+
+    plus(Rational b)
     {
     	if (!this.denominator == b.denominator)
     	{ // make like denominator
